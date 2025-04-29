@@ -46,7 +46,7 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background: url('Pictures/unnamed.png') no-repeat center center fixed;
+            background: url('images/unnamed.png') no-repeat center center fixed;
             background-size: cover;
         }
         .container {
@@ -60,7 +60,6 @@
             left: 50%;
             transform: translate(-50%, -50%);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
         }
         input {
             width: 90%;
@@ -184,13 +183,13 @@
         <div class="running-text">
             <span>*UPDATED RESULT FOR NOV/DEC 2024 EXAMINATION IS PUBLISHED*</span>
         </div>
-        <img src="Pictures/sara/college.jpg" alt="College Logo" style="width: 80px; height: 80px;">
+        <img src="images/college.jpg" alt="College Logo" style="width: 80px; height: 80px;">
         <input type="text" id="user-id" placeholder="Enter ID" required>
         <input type="password" id="password" placeholder="Password" required>
         <div class="captcha">
             <span id="captcha-text"></span>
             <input type="hidden" id="captcha-hidden">
-            <img src="Pictures/sara/recaptcha.png" alt="Reset CAPTCHA" onclick="generateCaptcha()">
+            <img src="images/recaptcha.png" alt="Reset CAPTCHA" onclick="generateCaptcha()">
         </div>
         <input type="text" id="captcha-input" placeholder="Enter CAPTCHA" required>
         <button onclick="return validateCaptcha()">Log In</button>
@@ -201,11 +200,11 @@
 
     <div id="dashboard" style="display: none;">
         <div class="header">
-            <img src="Pictures/sara/college.jpg" alt="College Logo" style="width: 80px; height: 80px;">
+            <img src="images/college.jpg" alt="College Logo" style="width: 80px; height: 80px;">
             <h2>SARANATHAN COLLEGE OF ENGINEERING (AUTONOMOUS)<br>Venkateswara Nagar,Panjappur - Tiruchirapalli - 620012<br>Approved By AICTE, New Delhi & Affliated to Anna University.<br>Accredited by NAAC and NBA.</h2>
             <div class="profile-container">
                 <span>Welcome <strong>KEERTHIKARAN THIRUGNANAM</strong><br>ID: 813823106048<br>Login Time: <span id="login-time"></span></span>
-                <img src="Pictures/sara/813823106048.jpg" alt="Student Photo">
+                <img src="images/813823106048.jpg" alt="Student Photo">
             </div>
         </div>
         <div class="dashboard-container">
