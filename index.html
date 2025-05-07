@@ -6,7 +6,7 @@
     <title>STUDENT PORTAL</title>
     <script>
         function generateCaptcha() {
-            let captcha = Math.floor(10000 + Math.random() * 90000);
+            let captcha=Math.floor(10000 + Math.random() * 90000);
             document.getElementById("captcha-text").innerText = captcha;
             document.getElementById("captcha-hidden").value = captcha;
         }
